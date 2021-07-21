@@ -1,0 +1,17 @@
+{
+    "name": "santeri/santeritesti-plugin",
+    "description": "Composer test",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "zapse",
+            "email": "santeri.sako@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}, 
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
